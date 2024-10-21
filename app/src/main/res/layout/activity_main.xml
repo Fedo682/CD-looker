@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/silver"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/music_logo" />
+
+    <Spinner
+
+        android:id="@+id/Spinny"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:textColor="@color/white"
+        android:backgroundTint="@color/red"
+        android:id="@+id/ShowBooks"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:text="@string/ShowBtnText" />
+
+
+    <ListView
+        android:id="@+id/ListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="18dp"
+        android:textColor="@android:color/black"
+        android:textSize="11dp"
+
+        />
+
+    <RatingBar
+        android:backgroundTint="@color/gold"
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="400dp" />
+
+</LinearLayout>
