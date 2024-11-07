@@ -2,10 +2,10 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
+    android:id="@+id/Show_Data"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/silver"
+    android:background="@color/material_dynamic_neutral30"
     android:orientation="vertical"
     android:padding="16dp"
     tools:context=".MainActivity">
@@ -21,37 +21,40 @@
         android:id="@+id/Spinny"
         android:layout_width="match_parent"
         android:layout_height="72dp"
-        android:textColor="@android:color/black"
-        android:layout_marginTop="20dp" />
+        android:layout_marginTop="20dp"
+        android:textColor="@android:color/black" />
 
     <Button
-        android:textColor="@color/white"
-        android:backgroundTint="@color/red"
         android:id="@+id/ShowBooks"
         android:layout_width="166dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:backgroundTint="@color/red"
+        android:text="@string/ShowBtnText"
 
-        android:text="@string/ShowBtnText" />
+        android:textColor="@color/white" />
+
+
+    <!--        android:scrollbarSize="10sp"-->
+    <!--        android:layout_margin="18dp"-->
 
 
     <ListView
         android:id="@+id/ListView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="411dp"
+        android:layout_height="358dp"
         android:layout_gravity="center"
         android:layout_marginTop="18dp"
-        android:textColor="@android:color/black"
-        android:textSize="11dp"
-
-        />
+        android:background="#888E8E8E"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
 
     <RatingBar
-        android:backgroundTint="@color/gold"
         android:id="@+id/ratingBar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="400dp" />
+        android:layout_marginTop="400dp"
+        android:backgroundTint="@color/gold" />
 
 </LinearLayout>

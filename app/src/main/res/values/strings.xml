@@ -2,4 +2,8 @@
     <string name="app_name">CD LookUp </string>
     <string name="ShowBtnText">Show</string>
     <string name="CD_lookUp">CD LookUp </string>
+    <string name="get_back">Get Back</string>
+    <string name="empty_text_noClose">text was Empty wont Close the application</string>
+    <string name="show_data">Show Data</string>
+    <string name="text_here">The text Will apear Here.</string>
 </resources>
